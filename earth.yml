@@ -1,0 +1,15 @@
+accounts:
+  - name: TaroE
+    coins: ["1000token", "100000000stake"]
+  - name: GiroE
+    coins: ["500token", "100000000stake"]
+validator:
+  name: TaroE
+  staked: "100000000stake"
+faucet:
+  name: GiroE
+  coins: ["5token", "100000stake"]
+genesis:
+  chain_id: "earth"
+init:
+  home: "$HOME/.earth"
